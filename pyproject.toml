@@ -1,0 +1,5 @@
+[project]
+name="ai-crypto-analyst"
+version="0.1.0"
+dependencies=["numpy"]
+requires-python=">=3.11"

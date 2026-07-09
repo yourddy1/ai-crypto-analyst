@@ -1,16 +1,10 @@
-# Ai Crypto Analyst
+# AI Crypto Analyst 📊
+Scoring engine — 50+ metrics across liquidity, volume, community, narrative, risk.
 
-AI-powered cryptocurrency analyst. Generates scoring models for new tokens — liquidity, volume, community, risk
-
-## Features
-- 🔥 Built for scale — production-ready
-- 🤖 AI-powered automation
-- ⚡ Fast execution, minimal latency
-
-## Stack
-- Python 3.11+ / TypeScript
-- Browser Use / LangChain
-- Web3 / Solana / EVM
-
-## License
-MIT © 2026 yourddy1
+```python
+from src.scorer import CryptoScorer
+scorer = CryptoScorer()
+result = scorer.score({"liquidity":0.95,"volume":0.88,"holders":0.72,"community":0.65,"narrative":0.80,"risk":0.12})
+print(result["rating"])
+```
+MIT © yourddy1
